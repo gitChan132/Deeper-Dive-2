@@ -1,0 +1,115 @@
+    /* Global Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Header */
+    header {
+      background: #3498db;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-weight: 600;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    /* Navigation */
+    nav {
+        background: #fff;
+        padding: 10px 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    /* Main Content */
+    main {
+      max-width: 960px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      margin-bottom: 15px;
+      color: #3498db;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+    }
+    article {
+      margin-bottom: 20px;
+    }
+    article h3 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+    article ul {
+        margin-left: 5%;
+    }
+    article figcaption {
+        font-size: 8px;
+    }
+    article p {
+      margin-bottom: 10px;
+      text-align: justify;
+    }
+    /* Sources */
+    .sources {
+      background: #ecf0f1;
+      padding: 15px;
+      border-radius: 5px;
+    }
+    .sources h3 {
+      margin-bottom: 10px;
+    }
+    .sources ul {
+      list-style: disc inside;
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 20px;
+      border-top: 1px solid #ccc;
+      color: #777;
+    }
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+      nav ul li {
+        margin: 10px 0;
+      }
+    }
